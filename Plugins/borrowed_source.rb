@@ -5,7 +5,7 @@ class Autovoice
 	def initialize(*args)
 		super
 
-		@users = ["C0deMaver1ck", "Contingency", "t-y-l-e-r", "drift","drowningchild", "drift", "shoman94"]
+		@users = ["C0deMaver1ck", "Contingency", "Red5", "drift","drowningchild", "drift", "shoman94"]
 	  end
 		
 		def user(user)
