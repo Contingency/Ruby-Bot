@@ -11,8 +11,8 @@ class Weather
 	condition = weather_data.xpath('/xml_api_reply/weather/current_conditions/condition/@data').to_s
 	temp_f = weather_data.xpath('/xml_api_reply/weather/current_conditions/temp_f/@data').to_s
 	temp_c = weather_data.xpath('/xml_api_reply/weather/current_conditions/temp_c/@data').to_s
-
 	humidity = weather_data.xpath('/xml_api_reply/weather/current_conditions/humidity/@data').to_s
+	
 	return "Current Weather in #{city} is:  #{condition}			#{temp_f}F\/#{temp_c}C			#{humidity}"
     end
 
